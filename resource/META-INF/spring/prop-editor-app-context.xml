@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <context:property-placeholder location="classpath:META-INF/config/application.properties"/>
+
+    <bean id="customEditorConfigurer"
+          class="org.springframework.beans.factory.config.CustomEditorConfigurer"
+          p:propertyEditorRegistrars-ref="propertyEditorRegistrarsList"/>
+
+    <util:list id="propertyEditorRegistrarsList">
+        <bean class="ch10.DateTimeEditorRegistrar">
+            <constructor-arg value="${date.format.pattern}"/>
+        </bean>
+    </util:list>
+
+    <bean id="chris" class="ch10.Contact"
+          p:firstName="Chris"
+          p:lastName="Shaefer"
+          p:birthDate="1981-05-03"
+          p:personalSite="http://www.eurosport.com"/>
+
+    <bean id="myContact" class="ch10.Contact"
+          p:firstName="${myContact.firstName}"
+          p:lastName="${myContact.lastName}"
+          p:birthDate="${myContact.birthDate}"
+          p:personalSite="${myContact.personalSite}"/>
+</beans>

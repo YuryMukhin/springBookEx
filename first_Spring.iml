@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Xml Bean Factory Config" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/META-INF/spring/xml-bean-factory-config.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="App Context Xml" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/app-context-xml.xml</file>
+        </fileset>
+        <fileset id="fileset3" name="App Context Annotation" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/app-context-annotation.xml</file>
+        </fileset>
+        <fileset id="fileset4" name="App Context Xml (2)" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/src/message_example/app-context-xml.xml</file>
+        </fileset>
+        <fileset id="fileset5" name="Highschool Config" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/highschool-config.xml</file>
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/highschool-config-xml.xml</file>
+        </fileset>
+        <fileset id="fileset6" name="Kindergarten Config" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/kindergarten-config.xml</file>
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/kindergarten-config-xml.xml</file>
+        </fileset>
+        <fileset id="fileset7" name="Xml Bean Factory Config (2)" removed="false" profiles="highschool,kindergarten">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/xml-bean-factory-config.xml</file>
+        </fileset>
+        <fileset id="fileset8" name="Datasource Drivermanager" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/datasource-drivermanager.xml</file>
+        </fileset>
+        <fileset id="fileset9" name="App Context Annotation Ch8" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/app-context-annotation-ch8.xml</file>
+        </fileset>
+        <fileset id="fileset10" name="Tx Annotation App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/tx-annotation-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset11" name="Tx Declarative App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/tx-declarative-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset12" name="Tx Progmatic App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/tx-progmatic-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset13" name="Tx Jta App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/tx-jta-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset14" name="Prop Editor App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/prop-editor-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset15" name="Conv Service App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/conv-service-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset16" name="Spring Validator App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/spring-validator-app-context.xml</file>
+        </fileset>
+        <fileset id="fileset17" name="Jsr349 App Context" removed="false">
+          <file>file://$MODULE_DIR$/resource/META-INF/spring/jsr349-app-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="sessionFactory" value="1bfc7f02-e9d6-4a72-b495-47cd6b4fa8de" />
+        </datasource-map>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resource" type="java-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring-4.3.14.RELEASE" level="project" />
+    <orderEntry type="library" name="joda-time:joda-time:2.9.4" level="project" />
+    <orderEntry type="library" name="org.hibernate:hibernate-core:5.2.12.Final" level="project" />
+    <orderEntry type="library" name="org.hibernate:hibernate-validator:6.0.9.Final" level="project" />
+    <orderEntry type="library" name="javax.validation:validation-api:2.0.1.Final" level="project" />
+    <orderEntry type="library" name="com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="com.atomikos:transactions-jdbc:4.0.2" level="project" />
+    <orderEntry type="library" name="mysql:mysql-connector-java:6.0.6" level="project" />
+    <orderEntry type="library" name="javax.el:javax.el-api:3.0.0" level="project" />
+    <orderEntry type="library" name="org.aspectj:aspectjrt:1.9.1" level="project" />
+    <orderEntry type="library" name="org.aspectj:aspectjweaver:1.9.1" level="project" />
+    <orderEntry type="library" name="org.hibernate:hibernate-entitymanager:5.3.0.Beta2" level="project" />
+    <orderEntry type="library" name="org.hibernate:hibernate-envers:5.2.12.Final" level="project" />
+    <orderEntry type="library" name="org.hibernate:hibernate-jpamodelgen:1.3.0.Final" level="project" />
+    <orderEntry type="library" name="org.jadira.usertype:usertype.core:6.0.1.GA" level="project" />
+    <orderEntry type="library" name="org.jadira.usertype:usertype.jodatime:2.0.1" level="project" />
+    <orderEntry type="library" name="org.jadira.usertype:usertype.spi-hibernate36:3.2.0.GA" level="project" />
+    <orderEntry type="library" name="org.springframework.data:spring-data-jpa:1.4.1.RELEASE" level="project" />
+    <orderEntry type="library" name="org.springframework:spring-jdbc:5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="org.springframework:spring-aop:5.0.4.RELEASE" level="project" />
+  </component>
+</module>
